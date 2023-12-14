@@ -10,4 +10,4 @@ COPY script.sh .
 RUN chmod +x script.sh
 
 # Run the script when the container launches
-CMD ["./script.sh", "merhaba alem!"]
+CMD ["./script.sh", "merhaba edib!"]
