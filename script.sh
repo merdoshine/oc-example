@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "You entered: $1"
+
+for i in {1..5}
+do
+   echo "You entered $i: $1"
+done
