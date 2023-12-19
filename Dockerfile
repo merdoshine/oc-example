@@ -9,5 +9,7 @@ COPY script.sh .
 
 RUN chmod +x script.sh
 
+RUN apt update && apt install 2ping 
+
 # Run the script when the container launches
 CMD ["./script.sh", "merhaba edib!"]
