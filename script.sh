@@ -5,4 +5,4 @@ do
    echo "You entered $i: $1"
 done
 
-sleep infinity
+sleep 10000
